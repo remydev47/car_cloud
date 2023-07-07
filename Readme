@@ -1,0 +1,62 @@
+# Car Cloud
+
+This is a car website built with Next.js 13, utilizing an API from Rapid API and developed with TypeScript. The website allows users to browse and search for cars, view detailed information and specifications, and provides user authentication functionality.
+
+## Features
+
+- Browse a wide range of cars with detailed information and specifications.
+- Search for cars based on various criteria such as make, model, year, etc.
+- View car listings with high-quality images and descriptions.
+- User authentication system for registering and logging in.
+- User dashboard to manage saved cars, preferences, and account settings.
+
+## Technologies Used
+
+- Next.js 13: A popular React framework for server-side rendering and static site generation.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A statically typed superset of JavaScript, adding type checking and static analysis.
+- Rapid API: An API marketplace used to integrate car data into the website.
+- CSS Modules: Used for styling components and ensuring scoped styles.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js: Make sure you have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+
+### Configuration
+
+1. Obtain an API key from Rapid API by signing up on their website and subscribing to the car data API.
+2. Create a `.env` file in the root directory of the project.
+3. Add your Rapid API key to the `.env` file: `RAPID_API_KEY=your-api-key`.
+
+### Running the Application
+
+1. Run the development server: `npm run dev`
+2. Open your browser and navigate to `http://localhost:3000` to access the website.
+
+## Folder Structure
+
+- `pages/`: Contains the Next.js pages for the website's routes.
+- `components/`: Reusable React components used throughout the application.
+- `styles/`: CSS and SCSS files for styling the components.
+- `utils/`: Utility functions and helpers.
+- `api/`: Module for integrating with the Rapid API and fetching car data.
+
+## Contributions
+
+Contributions to the project are welcome! If you have any bug fixes, improvements, or new features, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Thanks to Rapid API for providing the car data API.
+- Thanks to the Next.js and React communities for their helpful resources and documentation.
